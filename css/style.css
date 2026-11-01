@@ -1,1 +1,28 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FEFBF1;
+    color: #2D5CB2;
+    font-family: Georgia, serif;
+    font-size: 17px;
+}
+
+/* Font */
+.logo,
+h1,
+h2 {
+    font-family: "Redaction", Georgia, serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
