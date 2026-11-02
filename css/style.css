@@ -166,6 +166,7 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
+    border: 2px solid #E1E9FB;
     padding: 18px;
 }
 
@@ -242,6 +243,10 @@ img {
 
 .detail-hero p {
     line-height: 1.6;
+}
+
+.hero-label {
+    color:#E8C66E;
 }
 
 .content-grid {
