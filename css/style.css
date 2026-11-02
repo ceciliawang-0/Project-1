@@ -328,3 +328,99 @@ img {
     border-bottom: none;
     margin-bottom: 0;
 }
+
+@media (min-width: 768px) {
+
+
+    .container {
+        padding: 40px 5.5% 80px;
+    }
+
+    .site-header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 28px 5.5%;
+    }
+
+    .logo {
+        font-size: 36px;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        gap: 28px;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .hero-banner h1,
+    .detail-hero h1 {
+        font-size: 48px;
+    }
+
+    .hero-grid {
+        grid-template-columns: 2fr 1fr;
+        gap: 24px;
+    }
+
+    .hero-banner {
+        padding: 50px;
+    }
+
+    .hero-sidebar {
+        padding: 30px;
+    }
+
+    .hero-sidebar h3 {
+        font-size: 15px;
+    }
+
+    .hero-sidebar ul {
+        font-size: 13px;
+    }
+
+     .cards-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .detail-hero {
+        padding: 50px;
+    }
+
+    .content-grid {
+        grid-template-columns: 3fr 1fr;
+        gap: 24px;
+    }
+
+    .main-article {
+        padding: 36px;
+    }
+
+    .exhibition-image {
+        height: 320px;
+    }
+
+    .artworks-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .artwork-image {
+        height: 220px;
+    }
+
+    .metadata-sidebar {
+        padding: 30px;
+    }
+
+    .site-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 28px 5.5%;
+    }
+}
